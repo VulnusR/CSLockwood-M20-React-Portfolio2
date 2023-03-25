@@ -1,7 +1,8 @@
 import React from 'react';
 import Header from './header.js';
 import AboutMe from './AboutMe.js';
-import AboutMe from './Portfolio.js';
+import Portfolio from './Portfolio.js';
+import Contact from './Contact.js';
 
 
 function App() {
