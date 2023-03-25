@@ -3,6 +3,7 @@ import Header from './header.js';
 import AboutMe from './AboutMe.js';
 import Portfolio from './Portfolio.js';
 import Contact from './Contact.js';
+import Resume from './Resume.js';
 
 
 function App() {
