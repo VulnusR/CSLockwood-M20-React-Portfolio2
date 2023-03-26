@@ -133,6 +133,7 @@ body {
     overflow-y: scroll;
 }
 
+/* Old Remember to delete this if it doesnt get used at some point*/
 .paragraph {
     width: 70%;
     border-style: solid;
@@ -144,6 +145,57 @@ body {
     height: 80%;
     margin-bottom: 1%;
 }
+
+.contact-parent {
+    width: 70%;
+    padding: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.btn-plus-fields-parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contact-h3 {
+    color:rgb(255, 184, 3);
+}
+
+.standard-input {
+    min-width: 25vh;
+    max-width: 35vh;
+    box-shadow: 0px 0px 10px 2.5px rgb(196, 196, 196);
+}
+
+.contact-btn {
+    width: 10vh;
+    height: 10vh;
+    border-radius: 50%;
+    background-color:rgb(71, 71, 71); 
+    box-shadow: 0px 0px 40px 5px rgb(196, 196, 196);
+    
+    border-color: transparent;
+}
+
+.contact-btn:hover {
+    background-color:rgb(250, 162, 0);
+    box-shadow: 0px 0px 120px 25px rgb(250, 162, 0);
+    
+    
+
+}
+
+.lg-input {
+    min-height: 40vh;
+    box-shadow: 0px 0px 10px 2.5px rgb(196, 196, 196);
+    
+}
+
+
 
 .Footer-Box {
     display: flex;

@@ -2,8 +2,8 @@ import React from 'react';
 
 function Resume() {
     return (
-      <div>
-      <h2>Resume</h2>
+      <div className='main-article'>
+      <h2 className='page-title'>Resume</h2>
       {/* resume goes here */}
       </div>
     );
