@@ -11,6 +11,10 @@ body {
 
 }
 
+p {
+    color:rgb(250, 162, 0);
+}
+
 #root {
     min-height: 100vh;
     height: 100%;
