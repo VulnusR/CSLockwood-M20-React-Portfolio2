@@ -4,7 +4,11 @@ function AboutMe() {
     return (
       <div>
       <h2>About Me</h2>
-      {/* Picture goes here */}
+      <div className='textboxarea'>
+        <p>dsafadsfasdfasdf</p>
+
+      </div>
+      
       <p>ipsa lorem ect ect</p>
       </div>
     );
