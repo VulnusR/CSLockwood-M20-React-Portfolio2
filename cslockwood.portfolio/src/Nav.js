@@ -2,23 +2,14 @@ import React from 'react';
 
 function Nav() {
   return (
-    <nav>
-      <ul>
-        <NavItem link="#about-me" text="About Me" />
-        <NavItem link="#portfolio" text="Portfolio" />
-        <NavItem link="#contact" text="Contact" />
-        <NavItem link="#resume" text="Resume" />
-      </ul>
+    <nav className='Navbar'>
+      <button className="Nav-btn" link="#about-me">About Me</button>
+      <button className="Nav-btn" link="#portfolio">Portfolio</button>
+      <button className="Nav-btn" link="#contact">Contact</button>
+      <button className="Nav-btn" link="#resume">Resume</button>
     </nav>
   );
 }
 
-function NavItem(props) {
-    return (
-      <li>
-        <a href={props.link}>{props.text}</a>
-      </li>
-    );
-}
   
 export default Nav;
