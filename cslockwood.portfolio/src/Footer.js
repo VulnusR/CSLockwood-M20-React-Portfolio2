@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 
 function Footer() {
     return (
-      <footer>
+      <footer className = "Footer-Box">
         <ul>
           <li>
             <a href="https://github.com/VulnusR">

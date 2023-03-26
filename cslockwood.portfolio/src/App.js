@@ -6,6 +6,8 @@ import Contact from './Contact.js';
 import Resume from './Resume.js';
 import Footer from './Footer.js';
 
+import './Styles/styles.css';
+
 
 function App() {
   return (
