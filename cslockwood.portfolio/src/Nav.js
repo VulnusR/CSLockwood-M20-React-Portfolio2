@@ -1,12 +1,25 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
+function NavItem(props) {
+  return (
+    <li>
+      <Link to={props.path}>
+        <button className="Nav-btn">
+          {props.text}
+        </button>
+      </Link>
+    </li>
+  );
+}
 
 function Nav() {
   return (
-    <nav className='Navbar'>
-      <button className="Nav-btn" link="#about-me">About Me</button>
-      <button className="Nav-btn" link="#portfolio">Portfolio</button>
-      <button className="Nav-btn" link="#contact">Contact</button>
-      <button className="Nav-btn" link="#resume">Resume</button>
+    <nav className='Navbar' style={{ listStyleType: 'none' }}>
+        <NavItem path="/" text="About Me" />
+        <NavItem path="/portfolio" text="Portfolio" />
+        <NavItem path="/contact" text="Contact" />
+        <NavItem path="/resume" text="Resume" />
     </nav>
   );
 }
