@@ -88,6 +88,7 @@ body {
 
 .page-title {
     color:rgb(255, 184, 3);
+    border-bottom: 2px dotted;
 }
 
 
