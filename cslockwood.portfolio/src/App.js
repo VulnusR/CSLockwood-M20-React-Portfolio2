@@ -4,6 +4,7 @@ import AboutMe from './AboutMe.js';
 import Portfolio from './Portfolio.js';
 import Contact from './Contact.js';
 import Resume from './Resume.js';
+import Footer from './Footer.js';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Portfolio />
       <Contact />
       <Resume /> 
+      <Footer />
     </div>
   );
 }
