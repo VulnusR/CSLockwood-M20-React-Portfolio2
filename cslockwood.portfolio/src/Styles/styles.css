@@ -169,6 +169,7 @@ body {
     min-width: 25vh;
     max-width: 35vh;
     box-shadow: 0px 0px 10px 2.5px rgb(196, 196, 196);
+    border-color: rgb(250, 162, 0);
 }
 
 .contact-btn {
@@ -192,6 +193,7 @@ body {
 .lg-input {
     min-height: 40vh;
     box-shadow: 0px 0px 10px 2.5px rgb(196, 196, 196);
+    border-color: rgb(250, 162, 0);
     
 }
 
