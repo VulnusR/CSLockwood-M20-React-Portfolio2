@@ -1,17 +1,14 @@
 import React from 'react';
 
 function AboutMe() {
-    return (
-      <div>
-      <h2>About Me</h2>
-      <div className='textboxarea'>
+  return (
+    <div className='main-article'>
+      <h2 className='page-title'>About Me</h2>
+      <div className='paragraph' >
         <p>dsafadsfasdfasdf</p>
-
       </div>
-      
-      <p>ipsa lorem ect ect</p>
-      </div>
-    );
+    </div>
+  );
 }
   
 export default AboutMe;
