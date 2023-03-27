@@ -4,7 +4,7 @@ function Resume() {
     return (
     <div className='main-article'>
       <h2 className='page-title'>Resume</h2>
-      <h4 className='download-txt'>Download my resume<span className='download-link'> here!</span></h4>
+      <h4 className='download-txt'>Download my resume<a className='download-link' href='assets/Resume.pdf' download> here!</a></h4>
       <div className='resume-parent'>
         <div className='frontend-parent'>
           <h3  className="contact-h3">Front End Proficiencies</h3>
@@ -17,7 +17,7 @@ function Resume() {
             <p>Bootstrap</p>
           </div>
         </div>  
-           
+
         <div className='backend-parent'>
           <h3 className="contact-h3">Back End Proficiencies</h3>
           <div className='resume-p'>
