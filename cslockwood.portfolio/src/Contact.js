@@ -1,8 +1,42 @@
 import React from 'react';
-import { FaXbox } from 'react-icons/fa';
 
 function Contact() {
   return (
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [message, setMessage] = useState('');
+    const [errors, setErrors] = useState({});
+
+    const handleSubmit = (event) => {
+      event.preventDefault();
+
+      // Check for errors
+      const newErrors = {};
+      if (!name) {
+        newErrors.name = 'Name is required';
+      }
+
+      if (!message) {
+        newErrors.message = 'Message is required';
+      }
+
+      if (!validateEmail(email)) {
+        newErrors.email = 'Invalid email address';
+      }
+  
+      if (Object.keys(newErrors).length > 0) {
+        setErrors(newErrors);
+        return;
+      }
+   
+
+      // Submit the form
+      console.log('Name:', name);
+      console.log('Email:', email);
+      console.log('Message:', message);
+    };
+
+    
     <div className='main-article'>
       <h2 className='page-title'>Contact</h2>
         <div className='contact-parent'>
@@ -16,7 +50,7 @@ function Contact() {
               <input className='standard-input' type={Text}></input>
             </div>
 
-            <input className='contact-btn' type={'button'}></input>
+            <input className='contact-btn' type={'button'} value="Send Message!"></input>
           </div>
 
           <h3 className='contact-h3'>Your Message:</h3>

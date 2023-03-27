@@ -188,6 +188,7 @@ body {
     border-radius: 50%;
     background-color:rgb(71, 71, 71); 
     box-shadow: 0px 0px 40px 5px rgb(196, 196, 196);
+    color: white;
     
     border-color: transparent;
 }
@@ -195,6 +196,7 @@ body {
 .contact-btn:hover {
     background-color:rgb(250, 162, 0);
     box-shadow: 0px 0px 120px 25px rgb(250, 162, 0);
+    color: rgb(175, 1, 1);
 }
 
 .lg-input {
