@@ -12,6 +12,7 @@ function Portfolio() {
         <div className='portfolio-col-1'>
           <Project
             picture={MovieFinder}
+            alt='Movie Finder Homepage'
             description='MovieFinder'
             link='https://kabdomora.github.io/MovieFinder-TM/'
           />
@@ -20,6 +21,7 @@ function Portfolio() {
         <div className='portfolio-col-2'>
           <Project
             picture={WorkWrangler}
+            alt='Work Wrangler Log in page'
             description='Work-Wrangler'
             link='https://work-wrangler.herokuapp.com/login'
           />
