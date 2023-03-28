@@ -4,6 +4,7 @@ import MovieFinder from './assets/Imgs/MovFinder.png'
 import WorkWrangler from './assets/Imgs/WorkWranglerSS.png';
 
 
+
 function Portfolio() {
   return (
     <div className='main-article'>
@@ -13,7 +14,8 @@ function Portfolio() {
           <Project
             picture={MovieFinder}
             alt='Movie Finder Homepage'
-            description='MovieFinder'
+            description='MovieFinder is an application that recommends movie based on user input--showing trailers, related media, and reviews.'
+            repo="https://github.com/VulnusR/MovieFinder-TM"
             link='https://kabdomora.github.io/MovieFinder-TM/'
           />
          

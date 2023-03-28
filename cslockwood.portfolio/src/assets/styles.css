@@ -294,7 +294,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    color: #8e8e8e;
+    color: rgb(250, 162, 0);
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
   }
@@ -302,8 +302,8 @@ body {
   .project-overlay:hover .project-description {
     min-width: 100%;
     min-height: 100%;
-    background-color: rgb(253, 253, 253);
-    opacity: .5;
+    background-color: rgb(48, 48, 48);
+    opacity: .6;
   }
 
 .Footer-Box {
