@@ -99,6 +99,10 @@ body {
     margin-top:  1%;
 }
 
+.red-text {
+    color:rgb(175, 1, 1);
+}
+
 .paragraph-about {
     width: 70%;
     height: 80%;
