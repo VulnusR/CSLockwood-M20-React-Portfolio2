@@ -17,6 +17,7 @@ function Portfolio() {
             description='MovieFinder is an application that recommends movie based on user input--showing trailers, related media, and reviews.'
             repo="https://github.com/VulnusR/MovieFinder-TM"
             link='https://kabdomora.github.io/MovieFinder-TM/'
+            h4="MovieFinder"
           />
          
         </div>
