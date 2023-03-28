@@ -8,19 +8,22 @@ function Project(props) {
         <img src={props.picture} alt={props.alt} className='project-img' />
         <div className='project-description'>
           <div className='project-links-parent'>
-          <a className= "icon" href={props.repo}>
-              <FaGithub className='iconcolor' />
-          </a>
+            {props.repo && (
+              <a className="icon" href={props.repo}>
+                <FaGithub className='iconcolor' />
+              </a>
+            )}
 
-          <a className='project-link' href={props.link}>View project</a>
+            {props.link && (
+              <a className='project-link' href={props.link}>View project</a>
+            )}
           </div>
 
           <div className='description-format'>
-      
             <h4 className='overlay-title'>{props.h4}</h4>
             <p>{props.description}</p>
-            
           </div>
+          
         </div>
       </div>
     </div>

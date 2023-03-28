@@ -268,7 +268,8 @@ body {
     border-color: rgb(250, 162, 0);
     border-style: solid;
     border-width: 1px;
-    box-shadow: 0px 0px 40px 5px rgb(196, 196, 196);
+    box-shadow: 0px 0px 20px 5px rgb(196, 196, 196);
+    margin-bottom: 10%;
 }
 
 .project-parent:hover {

@@ -2,6 +2,7 @@ import React from 'react';
 import Project from './Project.js';
 import MovieFinder from './assets/Imgs/MovFinder.png'
 import WorkWrangler from './assets/Imgs/WorkWranglerSS.png';
+import eTracker from './assets/Imgs/EmployeeTracker.png';
 
 
 
@@ -19,6 +20,14 @@ function Portfolio() {
             link='https://kabdomora.github.io/MovieFinder-TM/'
             h4="MovieFinder"
           />
+
+          <Project
+            picture={eTracker}
+            alt='Employee Tracker Program on Boot-up'
+            description='Employee Tracker is a backend application that allows a user to manage multiple levels of employees, departments, and more. Since this is a back-end application, there is no deployed link but you can use the program by forking the repo and following the README instructions.'
+            repo="https://github.com/VulnusR/CSLockwood-M12-EmployeeTrackerCMS"
+            h4="MovieFinder"
+          />    
          
         </div>
         <div className='portfolio-col-2'>
