@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/VulnusR/CSLockwood-M20-React.Portfolio2.0/static/css/main.276909be.css",
-    "main.js": "/VulnusR/CSLockwood-M20-React.Portfolio2.0/static/js/main.397ee24a.js",
+    "main.css": "/VulnusR/CSLockwood-M20-React.Portfolio2.0/static/css/main.ecc29653.css",
+    "main.js": "/VulnusR/CSLockwood-M20-React.Portfolio2.0/static/js/main.86db1f25.js",
     "static/js/496.10161ba1.chunk.js": "/VulnusR/CSLockwood-M20-React.Portfolio2.0/static/js/496.10161ba1.chunk.js",
     "static/media/MovFinder.png": "/VulnusR/CSLockwood-M20-React.Portfolio2.0/static/media/MovFinder.ebedb1def83d56d58bdc.png",
     "static/media/Space.jpg": "/VulnusR/CSLockwood-M20-React.Portfolio2.0/static/media/Space.a908384bb2f5b0299083.jpg",
@@ -12,12 +12,12 @@
     "static/media/EmployeeTracker.png": "/VulnusR/CSLockwood-M20-React.Portfolio2.0/static/media/EmployeeTracker.397da14b403099031c7f.png",
     "static/media/Randompass.png": "/VulnusR/CSLockwood-M20-React.Portfolio2.0/static/media/Randompass.165088e4e9c30925a9f4.png",
     "index.html": "/VulnusR/CSLockwood-M20-React.Portfolio2.0/index.html",
-    "main.276909be.css.map": "/VulnusR/CSLockwood-M20-React.Portfolio2.0/static/css/main.276909be.css.map",
-    "main.397ee24a.js.map": "/VulnusR/CSLockwood-M20-React.Portfolio2.0/static/js/main.397ee24a.js.map",
+    "main.ecc29653.css.map": "/VulnusR/CSLockwood-M20-React.Portfolio2.0/static/css/main.ecc29653.css.map",
+    "main.86db1f25.js.map": "/VulnusR/CSLockwood-M20-React.Portfolio2.0/static/js/main.86db1f25.js.map",
     "496.10161ba1.chunk.js.map": "/VulnusR/CSLockwood-M20-React.Portfolio2.0/static/js/496.10161ba1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.276909be.css",
-    "static/js/main.397ee24a.js"
+    "static/css/main.ecc29653.css",
+    "static/js/main.86db1f25.js"
   ]
 }
