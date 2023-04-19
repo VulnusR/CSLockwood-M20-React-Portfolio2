@@ -14,7 +14,7 @@ function App() {
       <div className="parentdiv">
         <Header />
         <Routes>
-          <Route path="/" element={<AboutMe />} />
+          <Route path="/CSLockwood-M20-React-Portfolio2/" element={<AboutMe />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/resume" element={<Resume />} />

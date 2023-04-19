@@ -24,7 +24,7 @@ function NavItem(props) {
 function Nav() {
   return (
     <nav className='Navbar' style={{ listStyleType: 'none' }}>
-        <NavItem path="/" text="About Me" />
+        <NavItem path="/CSLockwood-M20-React-Portfolio2/" text="About Me" />
         <NavItem path="/portfolio" text="Portfolio" />
         <NavItem path="/contact" text="Contact" />
         <NavItem path="/resume" text="Resume" />
