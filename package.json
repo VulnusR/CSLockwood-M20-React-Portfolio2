@@ -3,7 +3,8 @@
     "gh-pages": "^5.0.0",
     "react-icons": "^4.8.0",
     "react-router-dom": "^6.9.0",
-    "react-scripts": "^5.0.1"
+    "react-scripts": "^5.0.1",
+    "web-vitals": "^3.3.1"
   },
   "name": "cslockwood-m20-react.portfolio2.0",
   "description": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
@@ -33,7 +34,7 @@
   "bugs": {
     "url": "https://github.com/VulnusR/CSLockwood-M20-React.Portfolio2.0/issues"
   },
-  "homepage": "https://github.com/VulnusR/CSLockwood-M20-React.Portfolio2.0",
+  "homepage": "https://vulnusr.github.io/CSLockwood-M20-React-Portfolio2",
   "browserslist": {
     "production": [
       ">0.2%",
