@@ -4,10 +4,10 @@
 
   ## Description
 
-  This application serves as my professional portfolio. It is a React application that renders a single page application,
+  This application serves as my professional portfolio. It is a React application that renders a single page application.
 
   ## Link to Deployed Application:
-  
+
   https://vulnusr.github.io/CSLockwood-M20-React-Portfolio2/
   
   ## Third-Party Assets
